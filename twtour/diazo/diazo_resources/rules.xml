@@ -58,7 +58,8 @@
 
 
   <!-- plone-section1, home page, tourevent -->
-  <replace css:theme="#plone-section1" css:content="#plone-section1" />
+  <replace css:theme="#plone-section1 #plone-section1-main" css:content="#plone-section1" />
+  <replace css:theme-children="#plone-section1 #plone-section1-sidebar" css:content="#portal-column-two" />
 
   <!-- plone-section1, login_form -->
   <after css:theme="#plone-section1" css:content="#login_form" />
